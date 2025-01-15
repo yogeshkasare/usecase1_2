@@ -39,4 +39,4 @@ jobs:
               docker image pull sreehariskumar/flaskapp:latest
               docker container stop flask
               docker container rm flask
-              docker container run -d --name flask -p 80:5000 sreehariskumar/flaskapp
+              docker container run -d --name flask -p 80:5000 yogeshkasare/mynewrepo:jan15
